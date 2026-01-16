@@ -1,0 +1,5 @@
+Actors:
+
+1 -> User
+2 -> Expenses (Add/ Settle)
+3 -> Balance Tracking (Track who ows whom and the amount)
