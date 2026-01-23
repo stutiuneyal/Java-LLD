@@ -76,6 +76,10 @@ public class Main {
                     break;
 
                 case 4:
+                    exp.simplifyDebt();
+                    break;
+
+                case 5:
                     System.out.println("Thanks for using SplitWise!!");
                     System.exit(0);
                     break;
@@ -95,7 +99,8 @@ public class Main {
         System.out.println("1. Add Expenses");
         System.out.println("2. Settle Expenses");
         System.out.println("3. View Expenses");
-        System.out.println("4. Exit");
+        System.out.println("4. Simplify Expenses");
+        System.out.println("5. Exit");
     }
 
     private static Double validateAmountPaid(Scanner scanner) {

@@ -3,3 +3,31 @@ Actors:
 1 -> User
 2 -> Expenses (Add/ Settle)
 3 -> Balance Tracking (Track who ows whom and the amount)
+
+Simplifying:
+
+A -> B(100)
+B -> C(50)
+
+=> A -> C(100)
+
+A -> B -> C -> Wont work
+
+Current Implementation: Map -> Chain (A->B(amount)) & (B->C(amount))
+
+Now what I have to think is how to collapse these chains: A->C(amount)
+
+Net -> [net(user) = total amount to receive - total amount to pay]
+if net > 0 -> user must receive
+else net < 0 -> user must pay
+
+
+creditor: net > 0
+debtor : net < 0
+
+Greedy Setllement:
+
+- take one debtor and one creditor
+- settle -> min(creditor, -1 * debtor)
+- reduce both the amount -> by the settle amount
+- whoever becomes 0 -> remove
