@@ -1,0 +1,7 @@
+Actors:
+
+1) User
+2) Cart
+3) ExpenseCalculation -> Business Logic
+4) Catalog
+5) Product

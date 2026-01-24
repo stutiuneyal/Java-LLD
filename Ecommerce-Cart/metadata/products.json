@@ -1,0 +1,3336 @@
+{
+    "products": [
+        {
+            "id": "P1001",
+            "name": "Men Cotton T-Shirt",
+            "category": "Clothing",
+            "basePrice": 499,
+            "totalQuantity": 200,
+            "variants": [
+                {
+                    "code": "S",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "M",
+                    "availableQuantity": 80
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "XL",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1002",
+            "name": "Women Casual Top",
+            "category": "Clothing",
+            "basePrice": 699,
+            "totalQuantity": 150,
+            "variants": [
+                {
+                    "code": "S",
+                    "availableQuantity": 60
+                },
+                {
+                    "code": "M",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1003",
+            "name": "Unisex Hoodie",
+            "category": "Clothing",
+            "basePrice": 1299,
+            "totalQuantity": 120,
+            "variants": [
+                {
+                    "code": "M",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "XL",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1004",
+            "name": "Slim Fit Jeans",
+            "category": "Clothing",
+            "basePrice": 1599,
+            "totalQuantity": 160,
+            "variants": [
+                {
+                    "code": "30",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "32",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "34",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "36",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1005",
+            "name": "Formal Shirt",
+            "category": "Clothing",
+            "basePrice": 1199,
+            "totalQuantity": 140,
+            "variants": [
+                {
+                    "code": "38",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "40",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "42",
+                    "availableQuantity": 35
+                },
+                {
+                    "code": "44",
+                    "availableQuantity": 25
+                }
+            ]
+        },
+        {
+            "id": "P1006",
+            "name": "Running Shoes",
+            "category": "Footwear",
+            "basePrice": 2499,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "7",
+                    "availableQuantity": 20
+                },
+                {
+                    "code": "8",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "9",
+                    "availableQuantity": 25
+                },
+                {
+                    "code": "10",
+                    "availableQuantity": 25
+                }
+            ]
+        },
+        {
+            "id": "P1007",
+            "name": "Casual Sneakers",
+            "category": "Footwear",
+            "basePrice": 1999,
+            "totalQuantity": 120,
+            "variants": [
+                {
+                    "code": "6",
+                    "availableQuantity": 20
+                },
+                {
+                    "code": "7",
+                    "availableQuantity": 25
+                },
+                {
+                    "code": "8",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "9",
+                    "availableQuantity": 25
+                },
+                {
+                    "code": "10",
+                    "availableQuantity": 20
+                }
+            ]
+        },
+        {
+            "id": "P1008",
+            "name": "Leather Sandals",
+            "category": "Footwear",
+            "basePrice": 1799,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "7",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "8",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "9",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1009",
+            "name": "Flip Flops",
+            "category": "Footwear",
+            "basePrice": 499,
+            "totalQuantity": 200,
+            "variants": [
+                {
+                    "code": "6",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "7",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "8",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "9",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1010",
+            "name": "Formal Shoes",
+            "category": "Footwear",
+            "basePrice": 2999,
+            "totalQuantity": 80,
+            "variants": [
+                {
+                    "code": "7",
+                    "availableQuantity": 20
+                },
+                {
+                    "code": "8",
+                    "availableQuantity": 20
+                },
+                {
+                    "code": "9",
+                    "availableQuantity": 20
+                },
+                {
+                    "code": "10",
+                    "availableQuantity": 20
+                }
+            ]
+        },
+        {
+            "id": "P1011",
+            "name": "Android Smartphone 128GB",
+            "category": "Electronics",
+            "basePrice": 18999,
+            "totalQuantity": 60,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "Blue",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1012",
+            "name": "Android Smartphone 256GB",
+            "category": "Electronics",
+            "basePrice": 22999,
+            "totalQuantity": 50,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 25
+                },
+                {
+                    "code": "Silver",
+                    "availableQuantity": 25
+                }
+            ]
+        },
+        {
+            "id": "P1013",
+            "name": "Wireless Earbuds",
+            "category": "Electronics",
+            "basePrice": 2999,
+            "totalQuantity": 150,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 80
+                },
+                {
+                    "code": "White",
+                    "availableQuantity": 70
+                }
+            ]
+        },
+        {
+            "id": "P1014",
+            "name": "Bluetooth Headphones",
+            "category": "Electronics",
+            "basePrice": 4999,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1015",
+            "name": "Smart Watch",
+            "category": "Electronics",
+            "basePrice": 7999,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "Grey",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1016",
+            "name": "Laptop Backpack",
+            "category": "Accessories",
+            "basePrice": 1499,
+            "totalQuantity": 130,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 70
+                },
+                {
+                    "code": "Grey",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1017",
+            "name": "Leather Wallet",
+            "category": "Accessories",
+            "basePrice": 999,
+            "totalQuantity": 160,
+            "variants": [
+                {
+                    "code": "Brown",
+                    "availableQuantity": 80
+                },
+                {
+                    "code": "Black",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1018",
+            "name": "Sunglasses",
+            "category": "Accessories",
+            "basePrice": 1999,
+            "totalQuantity": 110,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 60
+                },
+                {
+                    "code": "Blue",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1019",
+            "name": "Analog Wrist Watch",
+            "category": "Accessories",
+            "basePrice": 3499,
+            "totalQuantity": 70,
+            "variants": [
+                {
+                    "code": "Brown",
+                    "availableQuantity": 35
+                },
+                {
+                    "code": "Black",
+                    "availableQuantity": 35
+                }
+            ]
+        },
+        {
+            "id": "P1020",
+            "name": "Travel Duffel Bag",
+            "category": "Accessories",
+            "basePrice": 2799,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 45
+                },
+                {
+                    "code": "Navy",
+                    "availableQuantity": 45
+                }
+            ]
+        },
+        {
+            "id": "P1021",
+            "name": "Office Chair",
+            "category": "Home",
+            "basePrice": 8999,
+            "totalQuantity": 50,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1022",
+            "name": "Study Table",
+            "category": "Home",
+            "basePrice": 6499,
+            "totalQuantity": 40,
+            "variants": [
+                {
+                    "code": "Brown",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1023",
+            "name": "Queen Bedsheet",
+            "category": "Home",
+            "basePrice": 1299,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "Blue",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "Grey",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1024",
+            "name": "Pillow Set",
+            "category": "Home",
+            "basePrice": 899,
+            "totalQuantity": 120,
+            "variants": [
+                {
+                    "code": "White",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1025",
+            "name": "Curtain Set",
+            "category": "Home",
+            "basePrice": 1999,
+            "totalQuantity": 80,
+            "variants": [
+                {
+                    "code": "Beige",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "Grey",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1026",
+            "name": "Fiction Novel",
+            "category": "Books",
+            "basePrice": 399,
+            "totalQuantity": 200,
+            "variants": [
+                {
+                    "code": "Paperback",
+                    "availableQuantity": 200
+                }
+            ]
+        },
+        {
+            "id": "P1027",
+            "name": "Self Help Book",
+            "category": "Books",
+            "basePrice": 499,
+            "totalQuantity": 180,
+            "variants": [
+                {
+                    "code": "Paperback",
+                    "availableQuantity": 120
+                },
+                {
+                    "code": "Hardcover",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1028",
+            "name": "Java Programming Book",
+            "category": "Books",
+            "basePrice": 899,
+            "totalQuantity": 150,
+            "variants": [
+                {
+                    "code": "Paperback",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1029",
+            "name": "Data Structures Guide",
+            "category": "Books",
+            "basePrice": 999,
+            "totalQuantity": 140,
+            "variants": [
+                {
+                    "code": "Paperback",
+                    "availableQuantity": 140
+                }
+            ]
+        },
+        {
+            "id": "P1030",
+            "name": "Notebook Pack",
+            "category": "Books",
+            "basePrice": 299,
+            "totalQuantity": 300,
+            "variants": [
+                {
+                    "code": "A4",
+                    "availableQuantity": 300
+                }
+            ]
+        },
+        {
+            "id": "P1031",
+            "name": "Microwave Oven",
+            "category": "Appliances",
+            "basePrice": 12499,
+            "totalQuantity": 30,
+            "variants": [
+                {
+                    "code": "20L",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1032",
+            "name": "Mixer Grinder",
+            "category": "Appliances",
+            "basePrice": 3499,
+            "totalQuantity": 70,
+            "variants": [
+                {
+                    "code": "3-Jar",
+                    "availableQuantity": 70
+                }
+            ]
+        },
+        {
+            "id": "P1033",
+            "name": "Electric Kettle",
+            "category": "Appliances",
+            "basePrice": 1799,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "1.5L",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1034",
+            "name": "Air Fryer",
+            "category": "Appliances",
+            "basePrice": 8999,
+            "totalQuantity": 40,
+            "variants": [
+                {
+                    "code": "4L",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1035",
+            "name": "Induction Cooktop",
+            "category": "Appliances",
+            "basePrice": 2599,
+            "totalQuantity": 80,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1036",
+            "name": "Protein Powder",
+            "category": "Grocery",
+            "basePrice": 1999,
+            "totalQuantity": 120,
+            "variants": [
+                {
+                    "code": "1kg",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1037",
+            "name": "Almonds Pack",
+            "category": "Grocery",
+            "basePrice": 899,
+            "totalQuantity": 200,
+            "variants": [
+                {
+                    "code": "500g",
+                    "availableQuantity": 200
+                }
+            ]
+        },
+        {
+            "id": "P1038",
+            "name": "Olive Oil",
+            "category": "Grocery",
+            "basePrice": 1199,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "1L",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1039",
+            "name": "Green Tea",
+            "category": "Grocery",
+            "basePrice": 499,
+            "totalQuantity": 180,
+            "variants": [
+                {
+                    "code": "250g",
+                    "availableQuantity": 180
+                }
+            ]
+        },
+        {
+            "id": "P1040",
+            "name": "Breakfast Cereal",
+            "category": "Grocery",
+            "basePrice": 349,
+            "totalQuantity": 220,
+            "variants": [
+                {
+                    "code": "500g",
+                    "availableQuantity": 220
+                }
+            ]
+        },
+        {
+            "id": "P1041",
+            "name": "Yoga Mat",
+            "category": "Sports",
+            "basePrice": 999,
+            "totalQuantity": 140,
+            "variants": [
+                {
+                    "code": "6mm",
+                    "availableQuantity": 140
+                }
+            ]
+        },
+        {
+            "id": "P1042",
+            "name": "Dumbbell Set",
+            "category": "Sports",
+            "basePrice": 2499,
+            "totalQuantity": 60,
+            "variants": [
+                {
+                    "code": "10kg",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1043",
+            "name": "Cricket Bat",
+            "category": "Sports",
+            "basePrice": 3499,
+            "totalQuantity": 50,
+            "variants": [
+                {
+                    "code": "Full Size",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1044",
+            "name": "Football",
+            "category": "Sports",
+            "basePrice": 1299,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "Size 5",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1045",
+            "name": "Badminton Racket",
+            "category": "Sports",
+            "basePrice": 1999,
+            "totalQuantity": 80,
+            "variants": [
+                {
+                    "code": "Standard",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1046",
+            "name": "Car Phone Holder",
+            "category": "Automotive",
+            "basePrice": 699,
+            "totalQuantity": 150,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1047",
+            "name": "Car Vacuum Cleaner",
+            "category": "Automotive",
+            "basePrice": 2499,
+            "totalQuantity": 60,
+            "variants": [
+                {
+                    "code": "12V",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1048",
+            "name": "Bike Riding Gloves",
+            "category": "Automotive",
+            "basePrice": 999,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "M",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1049",
+            "name": "Car Cover",
+            "category": "Automotive",
+            "basePrice": 1799,
+            "totalQuantity": 70,
+            "variants": [
+                {
+                    "code": "Sedan",
+                    "availableQuantity": 70
+                }
+            ]
+        },
+        {
+            "id": "P1050",
+            "name": "Tyre Inflator",
+            "category": "Automotive",
+            "basePrice": 2999,
+            "totalQuantity": 40,
+            "variants": [
+                {
+                    "code": "Portable",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1051",
+            "name": "Wireless Mouse",
+            "category": "Electronics",
+            "basePrice": 799,
+            "totalQuantity": 180,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 100
+                },
+                {
+                    "code": "Grey",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1052",
+            "name": "Mechanical Keyboard",
+            "category": "Electronics",
+            "basePrice": 3499,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "Blue Switch",
+                    "availableQuantity": 45
+                },
+                {
+                    "code": "Red Switch",
+                    "availableQuantity": 45
+                }
+            ]
+        },
+        {
+            "id": "P1053",
+            "name": "USB-C Cable",
+            "category": "Electronics",
+            "basePrice": 399,
+            "totalQuantity": 300,
+            "variants": [
+                {
+                    "code": "1m",
+                    "availableQuantity": 150
+                },
+                {
+                    "code": "2m",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1054",
+            "name": "Power Bank",
+            "category": "Electronics",
+            "basePrice": 1999,
+            "totalQuantity": 120,
+            "variants": [
+                {
+                    "code": "10000mAh",
+                    "availableQuantity": 70
+                },
+                {
+                    "code": "20000mAh",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1055",
+            "name": "Laptop Stand",
+            "category": "Electronics",
+            "basePrice": 1499,
+            "totalQuantity": 110,
+            "variants": [
+                {
+                    "code": "Aluminium",
+                    "availableQuantity": 110
+                }
+            ]
+        },
+        {
+            "id": "P1056",
+            "name": "Men Sports Shorts",
+            "category": "Clothing",
+            "basePrice": 699,
+            "totalQuantity": 140,
+            "variants": [
+                {
+                    "code": "M",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "XL",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1057",
+            "name": "Women Yoga Pants",
+            "category": "Clothing",
+            "basePrice": 999,
+            "totalQuantity": 130,
+            "variants": [
+                {
+                    "code": "S",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "M",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1058",
+            "name": "Unisex Jacket",
+            "category": "Clothing",
+            "basePrice": 2499,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "M",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 35
+                },
+                {
+                    "code": "XL",
+                    "availableQuantity": 25
+                }
+            ]
+        },
+        {
+            "id": "P1059",
+            "name": "Men Formal Trousers",
+            "category": "Clothing",
+            "basePrice": 1799,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "32",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "34",
+                    "availableQuantity": 35
+                },
+                {
+                    "code": "36",
+                    "availableQuantity": 25
+                }
+            ]
+        },
+        {
+            "id": "P1060",
+            "name": "Women Kurti",
+            "category": "Clothing",
+            "basePrice": 1299,
+            "totalQuantity": 120,
+            "variants": [
+                {
+                    "code": "M",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "XL",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1061",
+            "name": "Electric Toothbrush",
+            "category": "Personal Care",
+            "basePrice": 2999,
+            "totalQuantity": 70,
+            "variants": [
+                {
+                    "code": "Standard",
+                    "availableQuantity": 70
+                }
+            ]
+        },
+        {
+            "id": "P1062",
+            "name": "Hair Dryer",
+            "category": "Personal Care",
+            "basePrice": 1999,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "1200W",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1063",
+            "name": "Beard Trimmer",
+            "category": "Personal Care",
+            "basePrice": 1599,
+            "totalQuantity": 110,
+            "variants": [
+                {
+                    "code": "Cordless",
+                    "availableQuantity": 110
+                }
+            ]
+        },
+        {
+            "id": "P1064",
+            "name": "Face Wash",
+            "category": "Personal Care",
+            "basePrice": 299,
+            "totalQuantity": 250,
+            "variants": [
+                {
+                    "code": "100ml",
+                    "availableQuantity": 250
+                }
+            ]
+        },
+        {
+            "id": "P1065",
+            "name": "Body Lotion",
+            "category": "Personal Care",
+            "basePrice": 399,
+            "totalQuantity": 220,
+            "variants": [
+                {
+                    "code": "200ml",
+                    "availableQuantity": 220
+                }
+            ]
+        },
+        {
+            "id": "P1066",
+            "name": "Desk Lamp",
+            "category": "Home",
+            "basePrice": 1299,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "LED",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1067",
+            "name": "Wall Clock",
+            "category": "Home",
+            "basePrice": 999,
+            "totalQuantity": 120,
+            "variants": [
+                {
+                    "code": "Round",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1068",
+            "name": "Water Bottle",
+            "category": "Home",
+            "basePrice": 499,
+            "totalQuantity": 300,
+            "variants": [
+                {
+                    "code": "1L",
+                    "availableQuantity": 300
+                }
+            ]
+        },
+        {
+            "id": "P1069",
+            "name": "Vacuum Cleaner",
+            "category": "Home",
+            "basePrice": 6999,
+            "totalQuantity": 40,
+            "variants": [
+                {
+                    "code": "Bagless",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1070",
+            "name": "Room Heater",
+            "category": "Home",
+            "basePrice": 4999,
+            "totalQuantity": 50,
+            "variants": [
+                {
+                    "code": "2000W",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1071",
+            "name": "School Backpack",
+            "category": "Bags",
+            "basePrice": 1199,
+            "totalQuantity": 160,
+            "variants": [
+                {
+                    "code": "Blue",
+                    "availableQuantity": 80
+                },
+                {
+                    "code": "Red",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1072",
+            "name": "Laptop Sleeve",
+            "category": "Bags",
+            "basePrice": 899,
+            "totalQuantity": 140,
+            "variants": [
+                {
+                    "code": "13-inch",
+                    "availableQuantity": 70
+                },
+                {
+                    "code": "15-inch",
+                    "availableQuantity": 70
+                }
+            ]
+        },
+        {
+            "id": "P1073",
+            "name": "Gym Bag",
+            "category": "Bags",
+            "basePrice": 1499,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1074",
+            "name": "Trolley Bag",
+            "category": "Bags",
+            "basePrice": 5499,
+            "totalQuantity": 60,
+            "variants": [
+                {
+                    "code": "Cabin",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "Medium",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1075",
+            "name": "Messenger Bag",
+            "category": "Bags",
+            "basePrice": 2299,
+            "totalQuantity": 80,
+            "variants": [
+                {
+                    "code": "Brown",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1076",
+            "name": "Cookware Set",
+            "category": "Kitchen",
+            "basePrice": 3999,
+            "totalQuantity": 70,
+            "variants": [
+                {
+                    "code": "Non-Stick",
+                    "availableQuantity": 70
+                }
+            ]
+        },
+        {
+            "id": "P1077",
+            "name": "Knife Set",
+            "category": "Kitchen",
+            "basePrice": 1499,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "Steel",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1078",
+            "name": "Pressure Cooker",
+            "category": "Kitchen",
+            "basePrice": 2599,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "5L",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1079",
+            "name": "Dinner Set",
+            "category": "Kitchen",
+            "basePrice": 2999,
+            "totalQuantity": 60,
+            "variants": [
+                {
+                    "code": "12 Pieces",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1080",
+            "name": "Gas Stove",
+            "category": "Kitchen",
+            "basePrice": 6999,
+            "totalQuantity": 40,
+            "variants": [
+                {
+                    "code": "2 Burner",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1081",
+            "name": "Kids Toy Car",
+            "category": "Toys",
+            "basePrice": 799,
+            "totalQuantity": 200,
+            "variants": [
+                {
+                    "code": "Red",
+                    "availableQuantity": 100
+                },
+                {
+                    "code": "Blue",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1082",
+            "name": "Building Blocks Set",
+            "category": "Toys",
+            "basePrice": 1499,
+            "totalQuantity": 150,
+            "variants": [
+                {
+                    "code": "Standard",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1083",
+            "name": "Remote Control Car",
+            "category": "Toys",
+            "basePrice": 2499,
+            "totalQuantity": 80,
+            "variants": [
+                {
+                    "code": "Rechargeable",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1084",
+            "name": "Doll House",
+            "category": "Toys",
+            "basePrice": 2999,
+            "totalQuantity": 60,
+            "variants": [
+                {
+                    "code": "Mini",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1085",
+            "name": "Puzzle Game",
+            "category": "Toys",
+            "basePrice": 499,
+            "totalQuantity": 220,
+            "variants": [
+                {
+                    "code": "1000 Pieces",
+                    "availableQuantity": 220
+                }
+            ]
+        },
+        {
+            "id": "P1086",
+            "name": "Car Air Freshener",
+            "category": "Automotive",
+            "basePrice": 299,
+            "totalQuantity": 300,
+            "variants": [
+                {
+                    "code": "Lavender",
+                    "availableQuantity": 150
+                },
+                {
+                    "code": "Lemon",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1087",
+            "name": "Bike Helmet",
+            "category": "Automotive",
+            "basePrice": 1999,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "M",
+                    "availableQuantity": 45
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 45
+                }
+            ]
+        },
+        {
+            "id": "P1088",
+            "name": "Car Dash Camera",
+            "category": "Automotive",
+            "basePrice": 6999,
+            "totalQuantity": 40,
+            "variants": [
+                {
+                    "code": "Full HD",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1089",
+            "name": "Jump Starter",
+            "category": "Automotive",
+            "basePrice": 4999,
+            "totalQuantity": 30,
+            "variants": [
+                {
+                    "code": "Portable",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1090",
+            "name": "Car Cleaning Kit",
+            "category": "Automotive",
+            "basePrice": 1299,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "Complete",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1091",
+            "name": "Travel Pillow",
+            "category": "Travel",
+            "basePrice": 799,
+            "totalQuantity": 150,
+            "variants": [
+                {
+                    "code": "Memory Foam",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1092",
+            "name": "Neck Rest",
+            "category": "Travel",
+            "basePrice": 699,
+            "totalQuantity": 180,
+            "variants": [
+                {
+                    "code": "U-Shape",
+                    "availableQuantity": 180
+                }
+            ]
+        },
+        {
+            "id": "P1093",
+            "name": "Luggage Scale",
+            "category": "Travel",
+            "basePrice": 999,
+            "totalQuantity": 120,
+            "variants": [
+                {
+                    "code": "Digital",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1094",
+            "name": "Passport Holder",
+            "category": "Travel",
+            "basePrice": 499,
+            "totalQuantity": 200,
+            "variants": [
+                {
+                    "code": "Leather",
+                    "availableQuantity": 200
+                }
+            ]
+        },
+        {
+            "id": "P1095",
+            "name": "Travel Adapter",
+            "category": "Travel",
+            "basePrice": 1299,
+            "totalQuantity": 110,
+            "variants": [
+                {
+                    "code": "Universal",
+                    "availableQuantity": 110
+                }
+            ]
+        },
+        {
+            "id": "P1096",
+            "name": "Wireless Charger",
+            "category": "Electronics",
+            "basePrice": 1999,
+            "totalQuantity": 90,
+            "variants": [
+                {
+                    "code": "15W",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1097",
+            "name": "Smart Plug",
+            "category": "Electronics",
+            "basePrice": 1499,
+            "totalQuantity": 100,
+            "variants": [
+                {
+                    "code": "WiFi",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1098",
+            "name": "Security Camera",
+            "category": "Electronics",
+            "basePrice": 4999,
+            "totalQuantity": 60,
+            "variants": [
+                {
+                    "code": "Indoor",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1099",
+            "name": "Router",
+            "category": "Electronics",
+            "basePrice": 2999,
+            "totalQuantity": 80,
+            "variants": [
+                {
+                    "code": "Dual Band",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1100",
+            "name": "Smart Bulb",
+            "category": "Electronics",
+            "basePrice": 999,
+            "totalQuantity": 150,
+            "variants": [
+                {
+                    "code": "RGB",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1101",
+            "name": "Premium Coffee Beans",
+            "category": "Grocery",
+            "basePrice": 899,
+            "totalQuantity": 180,
+            "isActive": true,
+            "maxPerOrder": 6,
+            "variants": [
+                {
+                    "code": "250g",
+                    "availableQuantity": 80
+                },
+                {
+                    "code": "500g",
+                    "availableQuantity": 60
+                },
+                {
+                    "code": "1kg",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1102",
+            "name": "Organic Honey",
+            "category": "Grocery",
+            "basePrice": 599,
+            "totalQuantity": 120,
+            "isActive": true,
+            "maxPerOrder": 4,
+            "variants": [
+                {
+                    "code": "250g",
+                    "availableQuantity": 60
+                },
+                {
+                    "code": "500g",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1103",
+            "name": "Instant Oats",
+            "category": "Grocery",
+            "basePrice": 249,
+            "totalQuantity": 260,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "500g",
+                    "availableQuantity": 140
+                },
+                {
+                    "code": "1kg",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1104",
+            "name": "Basmati Rice",
+            "category": "Grocery",
+            "basePrice": 799,
+            "totalQuantity": 200,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "1kg",
+                    "availableQuantity": 90
+                },
+                {
+                    "code": "5kg",
+                    "availableQuantity": 110
+                }
+            ]
+        },
+        {
+            "id": "P1105",
+            "name": "Cold Pressed Coconut Oil",
+            "category": "Grocery",
+            "basePrice": 699,
+            "totalQuantity": 140,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "500ml",
+                    "availableQuantity": 70
+                },
+                {
+                    "code": "1L",
+                    "availableQuantity": 70
+                }
+            ]
+        },
+        {
+            "id": "P1106",
+            "name": "Gaming Mouse Pad",
+            "category": "Electronics",
+            "basePrice": 499,
+            "totalQuantity": 220,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Small",
+                    "availableQuantity": 120
+                },
+                {
+                    "code": "Large",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1107",
+            "name": "USB Hub",
+            "category": "Electronics",
+            "basePrice": 1299,
+            "totalQuantity": 120,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "4-Port",
+                    "availableQuantity": 70
+                },
+                {
+                    "code": "7-Port",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1108",
+            "name": "External SSD",
+            "category": "Electronics",
+            "basePrice": 6999,
+            "totalQuantity": 60,
+            "isActive": true,
+            "maxPerOrder": 2,
+            "variants": [
+                {
+                    "code": "500GB",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "1TB",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1109",
+            "name": "Noise Cancelling Earphones",
+            "category": "Electronics",
+            "basePrice": 5999,
+            "totalQuantity": 70,
+            "isActive": true,
+            "maxPerOrder": 2,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 35
+                },
+                {
+                    "code": "White",
+                    "availableQuantity": 35
+                }
+            ]
+        },
+        {
+            "id": "P1110",
+            "name": "HDMI Cable",
+            "category": "Electronics",
+            "basePrice": 399,
+            "totalQuantity": 300,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "1.5m",
+                    "availableQuantity": 150
+                },
+                {
+                    "code": "3m",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1111",
+            "name": "Cotton Socks Pack",
+            "category": "Clothing",
+            "basePrice": 399,
+            "totalQuantity": 260,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Free Size",
+                    "availableQuantity": 260
+                }
+            ]
+        },
+        {
+            "id": "P1112",
+            "name": "Men Polo T-Shirt",
+            "category": "Clothing",
+            "basePrice": 899,
+            "totalQuantity": 140,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "S",
+                    "availableQuantity": 35
+                },
+                {
+                    "code": "M",
+                    "availableQuantity": 45
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "XL",
+                    "availableQuantity": 20
+                }
+            ]
+        },
+        {
+            "id": "P1113",
+            "name": "Women Denim Jacket",
+            "category": "Clothing",
+            "basePrice": 2199,
+            "totalQuantity": 80,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "S",
+                    "availableQuantity": 25
+                },
+                {
+                    "code": "M",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 25
+                }
+            ]
+        },
+        {
+            "id": "P1114",
+            "name": "Raincoat",
+            "category": "Clothing",
+            "basePrice": 1499,
+            "totalQuantity": 90,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "M",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "XL",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1115",
+            "name": "Formal Blazer",
+            "category": "Clothing",
+            "basePrice": 4999,
+            "totalQuantity": 40,
+            "isActive": true,
+            "maxPerOrder": 1,
+            "variants": [
+                {
+                    "code": "40",
+                    "availableQuantity": 15
+                },
+                {
+                    "code": "42",
+                    "availableQuantity": 15
+                },
+                {
+                    "code": "44",
+                    "availableQuantity": 10
+                }
+            ]
+        },
+        {
+            "id": "P1116",
+            "name": "Stainless Steel Water Filter",
+            "category": "Home",
+            "basePrice": 2999,
+            "totalQuantity": 60,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "8L",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1117",
+            "name": "Door Mat",
+            "category": "Home",
+            "basePrice": 499,
+            "totalQuantity": 200,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Small",
+                    "availableQuantity": 110
+                },
+                {
+                    "code": "Large",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1118",
+            "name": "Bath Towel",
+            "category": "Home",
+            "basePrice": 699,
+            "totalQuantity": 160,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Grey",
+                    "availableQuantity": 80
+                },
+                {
+                    "code": "Blue",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1119",
+            "name": "Non-Stick Pan",
+            "category": "Kitchen",
+            "basePrice": 1299,
+            "totalQuantity": 120,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "22cm",
+                    "availableQuantity": 60
+                },
+                {
+                    "code": "26cm",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1120",
+            "name": "Steel Lunch Box",
+            "category": "Kitchen",
+            "basePrice": 899,
+            "totalQuantity": 180,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "2-Compartment",
+                    "availableQuantity": 90
+                },
+                {
+                    "code": "3-Compartment",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1121",
+            "name": "Basketball",
+            "category": "Sports",
+            "basePrice": 1499,
+            "totalQuantity": 90,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Size 7",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1122",
+            "name": "Skipping Rope",
+            "category": "Sports",
+            "basePrice": 399,
+            "totalQuantity": 240,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Standard",
+                    "availableQuantity": 240
+                }
+            ]
+        },
+        {
+            "id": "P1123",
+            "name": "Resistance Bands Set",
+            "category": "Sports",
+            "basePrice": 999,
+            "totalQuantity": 150,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "5-Band",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1124",
+            "name": "Cycling Water Bottle",
+            "category": "Sports",
+            "basePrice": 299,
+            "totalQuantity": 260,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "750ml",
+                    "availableQuantity": 260
+                }
+            ]
+        },
+        {
+            "id": "P1125",
+            "name": "Gym Gloves",
+            "category": "Sports",
+            "basePrice": 799,
+            "totalQuantity": 110,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "M",
+                    "availableQuantity": 55
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 55
+                }
+            ]
+        },
+        {
+            "id": "P1126",
+            "name": "Baby Shampoo",
+            "category": "Personal Care",
+            "basePrice": 349,
+            "totalQuantity": 220,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "200ml",
+                    "availableQuantity": 220
+                }
+            ]
+        },
+        {
+            "id": "P1127",
+            "name": "Toothpaste Pack",
+            "category": "Personal Care",
+            "basePrice": 299,
+            "totalQuantity": 280,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "2x150g",
+                    "availableQuantity": 280
+                }
+            ]
+        },
+        {
+            "id": "P1128",
+            "name": "Deodorant Spray",
+            "category": "Personal Care",
+            "basePrice": 399,
+            "totalQuantity": 190,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "150ml",
+                    "availableQuantity": 190
+                }
+            ]
+        },
+        {
+            "id": "P1129",
+            "name": "Sunscreen Lotion",
+            "category": "Personal Care",
+            "basePrice": 599,
+            "totalQuantity": 140,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "50ml",
+                    "availableQuantity": 140
+                }
+            ]
+        },
+        {
+            "id": "P1130",
+            "name": "Hand Sanitizer",
+            "category": "Personal Care",
+            "basePrice": 199,
+            "totalQuantity": 320,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "100ml",
+                    "availableQuantity": 320
+                }
+            ]
+        },
+        {
+            "id": "P1131",
+            "name": "Limited Edition Sneakers",
+            "category": "Footwear",
+            "basePrice": 9999,
+            "totalQuantity": 8,
+            "isActive": true,
+            "maxPerOrder": 1,
+            "constraints": {
+                "type": "LIMITED_STOCK",
+                "note": "Only 1 per user"
+            },
+            "variants": [
+                {
+                    "code": "8",
+                    "availableQuantity": 3
+                },
+                {
+                    "code": "9",
+                    "availableQuantity": 3
+                },
+                {
+                    "code": "10",
+                    "availableQuantity": 2
+                }
+            ]
+        },
+        {
+            "id": "P1132",
+            "name": "Out of Stock Hoodie",
+            "category": "Clothing",
+            "basePrice": 1499,
+            "totalQuantity": 0,
+            "isActive": true,
+            "constraints": {
+                "type": "OOS_PRODUCT"
+            },
+            "variants": [
+                {
+                    "code": "M",
+                    "availableQuantity": 0
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 0
+                },
+                {
+                    "code": "XL",
+                    "availableQuantity": 0
+                }
+            ]
+        },
+        {
+            "id": "P1133",
+            "name": "Disabled Product - Old Model Phone",
+            "category": "Electronics",
+            "basePrice": 7999,
+            "totalQuantity": 25,
+            "isActive": false,
+            "constraints": {
+                "type": "DISABLED_PRODUCT",
+                "note": "Should not be addable"
+            },
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 25
+                }
+            ]
+        },
+        {
+            "id": "P1134",
+            "name": "Variant Disabled T-Shirt",
+            "category": "Clothing",
+            "basePrice": 499,
+            "totalQuantity": 60,
+            "isActive": true,
+            "constraints": {
+                "type": "DISABLED_VARIANT",
+                "note": "XL disabled"
+            },
+            "variants": [
+                {
+                    "code": "S",
+                    "availableQuantity": 20,
+                    "isActive": true
+                },
+                {
+                    "code": "M",
+                    "availableQuantity": 25,
+                    "isActive": true
+                },
+                {
+                    "code": "XL",
+                    "availableQuantity": 15,
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": "P1135",
+            "name": "Min Order Qty Rice",
+            "category": "Grocery",
+            "basePrice": 899,
+            "totalQuantity": 100,
+            "isActive": true,
+            "minOrderQty": 2,
+            "constraints": {
+                "type": "MIN_QTY",
+                "minOrderQty": 2
+            },
+            "variants": [
+                {
+                    "code": "1kg",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "5kg",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1136",
+            "name": "Luxury Perfume",
+            "category": "Personal Care",
+            "basePrice": 24999,
+            "totalQuantity": 20,
+            "isActive": true,
+            "maxPerOrder": 1,
+            "isReturnable": false,
+            "constraints": {
+                "type": "NON_RETURNABLE_HIGH_VALUE"
+            },
+            "variants": [
+                {
+                    "code": "50ml",
+                    "availableQuantity": 10
+                },
+                {
+                    "code": "100ml",
+                    "availableQuantity": 10
+                }
+            ]
+        },
+        {
+            "id": "P1137",
+            "name": "Fragile Glass Vase",
+            "category": "Home",
+            "basePrice": 1599,
+            "totalQuantity": 30,
+            "isActive": true,
+            "constraints": {
+                "type": "FRAGILE",
+                "requiresSpecialHandling": true
+            },
+            "variants": [
+                {
+                    "code": "Small",
+                    "availableQuantity": 15
+                },
+                {
+                    "code": "Large",
+                    "availableQuantity": 15
+                }
+            ]
+        },
+        {
+            "id": "P1138",
+            "name": "Digital Gift Card",
+            "category": "Gift",
+            "basePrice": 1000,
+            "totalQuantity": 99999,
+            "isActive": true,
+            "constraints": {
+                "type": "DIGITAL_ITEM",
+                "shippingRequired": false
+            },
+            "variants": [
+                {
+                    "code": "₹1000",
+                    "availableQuantity": 99999
+                },
+                {
+                    "code": "₹2000",
+                    "availableQuantity": 99999
+                }
+            ]
+        },
+        {
+            "id": "P1139",
+            "name": "Flash Sale Earbuds",
+            "category": "Electronics",
+            "basePrice": 1499,
+            "totalQuantity": 25,
+            "isActive": true,
+            "maxPerOrder": 1,
+            "constraints": {
+                "type": "FLASH_SALE",
+                "note": "1 per order"
+            },
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 12
+                },
+                {
+                    "code": "White",
+                    "availableQuantity": 13
+                }
+            ]
+        },
+        {
+            "id": "P1140",
+            "name": "Near Expiry Milk Powder",
+            "category": "Grocery",
+            "basePrice": 499,
+            "totalQuantity": 40,
+            "isActive": true,
+            "constraints": {
+                "type": "EXPIRY_SENSITIVE",
+                "expiryDate": "2026-02-10"
+            },
+            "variants": [
+                {
+                    "code": "500g",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1141",
+            "name": "Bluetooth Speaker",
+            "category": "Electronics",
+            "basePrice": 2499,
+            "totalQuantity": 90,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 45
+                },
+                {
+                    "code": "Blue",
+                    "availableQuantity": 45
+                }
+            ]
+        },
+        {
+            "id": "P1142",
+            "name": "Fitness Band",
+            "category": "Electronics",
+            "basePrice": 2999,
+            "totalQuantity": 80,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "Pink",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1143",
+            "name": "Travel Umbrella",
+            "category": "Travel",
+            "basePrice": 799,
+            "totalQuantity": 150,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 75
+                },
+                {
+                    "code": "Navy",
+                    "availableQuantity": 75
+                }
+            ]
+        },
+        {
+            "id": "P1144",
+            "name": "Portable First Aid Kit",
+            "category": "Travel",
+            "basePrice": 599,
+            "totalQuantity": 200,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Standard",
+                    "availableQuantity": 200
+                }
+            ]
+        },
+        {
+            "id": "P1145",
+            "name": "Reusable Grocery Bag",
+            "category": "Home",
+            "basePrice": 199,
+            "totalQuantity": 400,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Pack of 3",
+                    "availableQuantity": 200
+                },
+                {
+                    "code": "Pack of 6",
+                    "availableQuantity": 200
+                }
+            ]
+        },
+        {
+            "id": "P1146",
+            "name": "Men Casual Belt",
+            "category": "Accessories",
+            "basePrice": 699,
+            "totalQuantity": 150,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Brown",
+                    "availableQuantity": 75
+                },
+                {
+                    "code": "Black",
+                    "availableQuantity": 75
+                }
+            ]
+        },
+        {
+            "id": "P1147",
+            "name": "Women Handbag",
+            "category": "Accessories",
+            "basePrice": 2499,
+            "totalQuantity": 70,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Tan",
+                    "availableQuantity": 35
+                },
+                {
+                    "code": "Black",
+                    "availableQuantity": 35
+                }
+            ]
+        },
+        {
+            "id": "P1148",
+            "name": "Cap",
+            "category": "Accessories",
+            "basePrice": 399,
+            "totalQuantity": 200,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 100
+                },
+                {
+                    "code": "White",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1149",
+            "name": "Phone Case",
+            "category": "Accessories",
+            "basePrice": 299,
+            "totalQuantity": 240,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "iPhone",
+                    "availableQuantity": 120
+                },
+                {
+                    "code": "Android",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1150",
+            "name": "Screen Guard",
+            "category": "Accessories",
+            "basePrice": 199,
+            "totalQuantity": 300,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "iPhone",
+                    "availableQuantity": 150
+                },
+                {
+                    "code": "Android",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1151",
+            "name": "Cookbook",
+            "category": "Books",
+            "basePrice": 599,
+            "totalQuantity": 140,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Paperback",
+                    "availableQuantity": 100
+                },
+                {
+                    "code": "Hardcover",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1152",
+            "name": "Interview Prep Book",
+            "category": "Books",
+            "basePrice": 799,
+            "totalQuantity": 160,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Paperback",
+                    "availableQuantity": 160
+                }
+            ]
+        },
+        {
+            "id": "P1153",
+            "name": "Notebook Spiral",
+            "category": "Books",
+            "basePrice": 149,
+            "totalQuantity": 500,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "A5",
+                    "availableQuantity": 250
+                },
+                {
+                    "code": "A4",
+                    "availableQuantity": 250
+                }
+            ]
+        },
+        {
+            "id": "P1154",
+            "name": "Gel Pen Set",
+            "category": "Books",
+            "basePrice": 199,
+            "totalQuantity": 300,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Pack of 5",
+                    "availableQuantity": 150
+                },
+                {
+                    "code": "Pack of 10",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1155",
+            "name": "Desk Organizer",
+            "category": "Home",
+            "basePrice": 499,
+            "totalQuantity": 180,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Standard",
+                    "availableQuantity": 180
+                }
+            ]
+        },
+        {
+            "id": "P1156",
+            "name": "Air Purifier",
+            "category": "Appliances",
+            "basePrice": 12999,
+            "totalQuantity": 35,
+            "isActive": true,
+            "maxPerOrder": 1,
+            "variants": [
+                {
+                    "code": "Room",
+                    "availableQuantity": 35
+                }
+            ]
+        },
+        {
+            "id": "P1157",
+            "name": "Steam Iron",
+            "category": "Appliances",
+            "basePrice": 2499,
+            "totalQuantity": 80,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "1200W",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1158",
+            "name": "Coffee Maker",
+            "category": "Appliances",
+            "basePrice": 5999,
+            "totalQuantity": 45,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Drip",
+                    "availableQuantity": 45
+                }
+            ]
+        },
+        {
+            "id": "P1159",
+            "name": "Toaster",
+            "category": "Appliances",
+            "basePrice": 1999,
+            "totalQuantity": 70,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "2-Slice",
+                    "availableQuantity": 70
+                }
+            ]
+        },
+        {
+            "id": "P1160",
+            "name": "Room Humidifier",
+            "category": "Appliances",
+            "basePrice": 3499,
+            "totalQuantity": 50,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "2L",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1161",
+            "name": "Car Seat Cushion",
+            "category": "Automotive",
+            "basePrice": 999,
+            "totalQuantity": 120,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Standard",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1162",
+            "name": "Car Perfume",
+            "category": "Automotive",
+            "basePrice": 399,
+            "totalQuantity": 250,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Ocean",
+                    "availableQuantity": 125
+                },
+                {
+                    "code": "Citrus",
+                    "availableQuantity": 125
+                }
+            ]
+        },
+        {
+            "id": "P1163",
+            "name": "Bike Phone Mount",
+            "category": "Automotive",
+            "basePrice": 699,
+            "totalQuantity": 150,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Universal",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1164",
+            "name": "Car Charger",
+            "category": "Automotive",
+            "basePrice": 599,
+            "totalQuantity": 180,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Dual USB",
+                    "availableQuantity": 180
+                }
+            ]
+        },
+        {
+            "id": "P1165",
+            "name": "Microfiber Cloth Pack",
+            "category": "Automotive",
+            "basePrice": 299,
+            "totalQuantity": 300,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Pack of 3",
+                    "availableQuantity": 150
+                },
+                {
+                    "code": "Pack of 6",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1166",
+            "name": "Kids Water Bottle",
+            "category": "Toys",
+            "basePrice": 399,
+            "totalQuantity": 200,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Blue",
+                    "availableQuantity": 100
+                },
+                {
+                    "code": "Pink",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1167",
+            "name": "Coloring Book",
+            "category": "Toys",
+            "basePrice": 199,
+            "totalQuantity": 320,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Standard",
+                    "availableQuantity": 320
+                }
+            ]
+        },
+        {
+            "id": "P1168",
+            "name": "Action Figure",
+            "category": "Toys",
+            "basePrice": 799,
+            "totalQuantity": 120,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Series A",
+                    "availableQuantity": 60
+                },
+                {
+                    "code": "Series B",
+                    "availableQuantity": 60
+                }
+            ]
+        },
+        {
+            "id": "P1169",
+            "name": "Board Game",
+            "category": "Toys",
+            "basePrice": 1299,
+            "totalQuantity": 90,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Family",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1170",
+            "name": "Science Kit",
+            "category": "Toys",
+            "basePrice": 1499,
+            "totalQuantity": 70,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Beginner",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "Advanced",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1171",
+            "name": "Men Running Socks",
+            "category": "Clothing",
+            "basePrice": 299,
+            "totalQuantity": 300,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Free Size",
+                    "availableQuantity": 300
+                }
+            ]
+        },
+        {
+            "id": "P1172",
+            "name": "Women Sports Bra",
+            "category": "Clothing",
+            "basePrice": 999,
+            "totalQuantity": 120,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "S",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "M",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1173",
+            "name": "Men Track Pants",
+            "category": "Clothing",
+            "basePrice": 1199,
+            "totalQuantity": 110,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "M",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "XL",
+                    "availableQuantity": 30
+                }
+            ]
+        },
+        {
+            "id": "P1174",
+            "name": "Women Sweatshirt",
+            "category": "Clothing",
+            "basePrice": 1499,
+            "totalQuantity": 90,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "S",
+                    "availableQuantity": 30
+                },
+                {
+                    "code": "M",
+                    "availableQuantity": 35
+                },
+                {
+                    "code": "L",
+                    "availableQuantity": 25
+                }
+            ]
+        },
+        {
+            "id": "P1175",
+            "name": "Unisex Cap",
+            "category": "Accessories",
+            "basePrice": 349,
+            "totalQuantity": 200,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 100
+                },
+                {
+                    "code": "Navy",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1176",
+            "name": "Energy Bar Pack",
+            "category": "Grocery",
+            "basePrice": 399,
+            "totalQuantity": 220,
+            "isActive": true,
+            "maxPerOrder": 10,
+            "variants": [
+                {
+                    "code": "Pack of 6",
+                    "availableQuantity": 110
+                },
+                {
+                    "code": "Pack of 12",
+                    "availableQuantity": 110
+                }
+            ]
+        },
+        {
+            "id": "P1177",
+            "name": "Peanut Butter",
+            "category": "Grocery",
+            "basePrice": 349,
+            "totalQuantity": 180,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "340g",
+                    "availableQuantity": 90
+                },
+                {
+                    "code": "1kg",
+                    "availableQuantity": 90
+                }
+            ]
+        },
+        {
+            "id": "P1178",
+            "name": "Dark Chocolate",
+            "category": "Grocery",
+            "basePrice": 199,
+            "totalQuantity": 240,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "70%",
+                    "availableQuantity": 120
+                },
+                {
+                    "code": "85%",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1179",
+            "name": "Instant Coffee",
+            "category": "Grocery",
+            "basePrice": 299,
+            "totalQuantity": 260,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "100g",
+                    "availableQuantity": 140
+                },
+                {
+                    "code": "200g",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1180",
+            "name": "Herbal Tea",
+            "category": "Grocery",
+            "basePrice": 349,
+            "totalQuantity": 200,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "100g",
+                    "availableQuantity": 200
+                }
+            ]
+        },
+        {
+            "id": "P1181",
+            "name": "LED Strip Lights",
+            "category": "Electronics",
+            "basePrice": 999,
+            "totalQuantity": 140,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "2m",
+                    "availableQuantity": 70
+                },
+                {
+                    "code": "5m",
+                    "availableQuantity": 70
+                }
+            ]
+        },
+        {
+            "id": "P1182",
+            "name": "Tripod Stand",
+            "category": "Electronics",
+            "basePrice": 1299,
+            "totalQuantity": 90,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Mobile",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "Camera",
+                    "availableQuantity": 40
+                }
+            ]
+        },
+        {
+            "id": "P1183",
+            "name": "Webcam",
+            "category": "Electronics",
+            "basePrice": 2999,
+            "totalQuantity": 80,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "1080p",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1184",
+            "name": "Monitor 24-inch",
+            "category": "Electronics",
+            "basePrice": 10999,
+            "totalQuantity": 35,
+            "isActive": true,
+            "maxPerOrder": 1,
+            "variants": [
+                {
+                    "code": "75Hz",
+                    "availableQuantity": 20
+                },
+                {
+                    "code": "144Hz",
+                    "availableQuantity": 15
+                }
+            ]
+        },
+        {
+            "id": "P1185",
+            "name": "Printer",
+            "category": "Electronics",
+            "basePrice": 8999,
+            "totalQuantity": 30,
+            "isActive": true,
+            "maxPerOrder": 1,
+            "variants": [
+                {
+                    "code": "Inkjet",
+                    "availableQuantity": 15
+                },
+                {
+                    "code": "Laser",
+                    "availableQuantity": 15
+                }
+            ]
+        },
+        {
+            "id": "P1186",
+            "name": "Hand Wash",
+            "category": "Personal Care",
+            "basePrice": 249,
+            "totalQuantity": 300,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "250ml",
+                    "availableQuantity": 150
+                },
+                {
+                    "code": "500ml",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1187",
+            "name": "Shampoo",
+            "category": "Personal Care",
+            "basePrice": 399,
+            "totalQuantity": 220,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "200ml",
+                    "availableQuantity": 120
+                },
+                {
+                    "code": "400ml",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1188",
+            "name": "Conditioner",
+            "category": "Personal Care",
+            "basePrice": 399,
+            "totalQuantity": 200,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "200ml",
+                    "availableQuantity": 100
+                },
+                {
+                    "code": "400ml",
+                    "availableQuantity": 100
+                }
+            ]
+        },
+        {
+            "id": "P1189",
+            "name": "Lip Balm",
+            "category": "Personal Care",
+            "basePrice": 199,
+            "totalQuantity": 260,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Strawberry",
+                    "availableQuantity": 130
+                },
+                {
+                    "code": "Mint",
+                    "availableQuantity": 130
+                }
+            ]
+        },
+        {
+            "id": "P1190",
+            "name": "Face Moisturizer",
+            "category": "Personal Care",
+            "basePrice": 499,
+            "totalQuantity": 180,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "50ml",
+                    "availableQuantity": 180
+                }
+            ]
+        },
+        {
+            "id": "P1191",
+            "name": "Ceramic Mug",
+            "category": "Home",
+            "basePrice": 299,
+            "totalQuantity": 240,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "White",
+                    "availableQuantity": 120
+                },
+                {
+                    "code": "Black",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1192",
+            "name": "Bedsheet King Size",
+            "category": "Home",
+            "basePrice": 1499,
+            "totalQuantity": 100,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Grey",
+                    "availableQuantity": 50
+                },
+                {
+                    "code": "Beige",
+                    "availableQuantity": 50
+                }
+            ]
+        },
+        {
+            "id": "P1193",
+            "name": "Cushion Cover Set",
+            "category": "Home",
+            "basePrice": 499,
+            "totalQuantity": 180,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Set of 5",
+                    "availableQuantity": 180
+                }
+            ]
+        },
+        {
+            "id": "P1194",
+            "name": "Storage Box",
+            "category": "Home",
+            "basePrice": 699,
+            "totalQuantity": 140,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Small",
+                    "availableQuantity": 70
+                },
+                {
+                    "code": "Large",
+                    "availableQuantity": 70
+                }
+            ]
+        },
+        {
+            "id": "P1195",
+            "name": "Clothes Hanger Pack",
+            "category": "Home",
+            "basePrice": 299,
+            "totalQuantity": 300,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Pack of 12",
+                    "availableQuantity": 150
+                },
+                {
+                    "code": "Pack of 24",
+                    "availableQuantity": 150
+                }
+            ]
+        },
+        {
+            "id": "P1196",
+            "name": "Football Studs",
+            "category": "Footwear",
+            "basePrice": 3499,
+            "totalQuantity": 70,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "7",
+                    "availableQuantity": 20
+                },
+                {
+                    "code": "8",
+                    "availableQuantity": 20
+                },
+                {
+                    "code": "9",
+                    "availableQuantity": 15
+                },
+                {
+                    "code": "10",
+                    "availableQuantity": 15
+                }
+            ]
+        },
+        {
+            "id": "P1197",
+            "name": "Hiking Shoes",
+            "category": "Footwear",
+            "basePrice": 4999,
+            "totalQuantity": 60,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "8",
+                    "availableQuantity": 20
+                },
+                {
+                    "code": "9",
+                    "availableQuantity": 20
+                },
+                {
+                    "code": "10",
+                    "availableQuantity": 20
+                }
+            ]
+        },
+        {
+            "id": "P1198",
+            "name": "Running Cap",
+            "category": "Sports",
+            "basePrice": 499,
+            "totalQuantity": 160,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Black",
+                    "availableQuantity": 80
+                },
+                {
+                    "code": "White",
+                    "availableQuantity": 80
+                }
+            ]
+        },
+        {
+            "id": "P1199",
+            "name": "Shoe Cleaner Kit",
+            "category": "Accessories",
+            "basePrice": 799,
+            "totalQuantity": 120,
+            "isActive": true,
+            "variants": [
+                {
+                    "code": "Standard",
+                    "availableQuantity": 120
+                }
+            ]
+        },
+        {
+            "id": "P1200",
+            "name": "Portable Tool Kit",
+            "category": "Automotive",
+            "basePrice": 1999,
+            "totalQuantity": 80,
+            "isActive": true,
+            "maxPerOrder": 2,
+            "variants": [
+                {
+                    "code": "Basic",
+                    "availableQuantity": 40
+                },
+                {
+                    "code": "Pro",
+                    "availableQuantity": 40
+                }
+            ]
+        }
+    ]
+}
