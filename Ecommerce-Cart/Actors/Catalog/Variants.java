@@ -3,8 +3,8 @@ package Actors.Catalog;
 public class Variants {
 
     private String code;
-    private int availableQuantity;
-    private boolean isActive;
+    private int availableQuantity=10;
+    private boolean isActive=true;
 
     public String getCode() {
         return code;

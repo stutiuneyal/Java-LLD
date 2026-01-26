@@ -1,7 +1,9 @@
 Actors:
 
-1) User
-2) Cart
-3) ExpenseCalculation -> Business Logic
+1) User(id,name,cart)
+2) Cart(list<Products>, totalAmount)
+R(User,Cart) = composition
 4) Catalog
 5) Product
+6) Variants
+7) Constraints

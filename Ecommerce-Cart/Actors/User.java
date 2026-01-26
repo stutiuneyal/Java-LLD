@@ -44,8 +44,8 @@ public class User {
         return users;
     }
 
-    public static void setUsers(List<User> users) {
-        User.users = users;
+    public static void addUsers(List<User> users) {
+        User.users.addAll(users);
     }
 
     public static User getUserByName(String name){

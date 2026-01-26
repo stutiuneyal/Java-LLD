@@ -9,10 +9,10 @@ public class Product {
     private String category;
     private double basePrice;
     private int totalQuantity;
-    private boolean isActive;
-    private int maxPerOrder;
-    private int minOrderQty;
-    private boolean isReturnable;
+    private Boolean isActive = true;
+    private int maxPerOrder = 5;
+    private int minOrderQty = 2;
+    private Boolean isReturnable = true;
     private Constraints constraints;
     private List<Variants> variants;
 
@@ -57,11 +57,11 @@ public class Product {
     }
 
     public boolean isActive() {
-        return isActive;
+        return isActive != null ? isActive : true;
     }
 
-    public void setActive(boolean isActive) {
-        this.isActive = isActive;
+    public void setActive(Boolean isActive) {
+        this.isActive = (isActive == null) ? true : isActive;
     }
 
     public int getMaxPerOrder() {
@@ -69,11 +69,11 @@ public class Product {
     }
 
     public void setMaxPerOrder(int maxPerOrder) {
-        this.maxPerOrder = maxPerOrder;
+        this.maxPerOrder = maxPerOrder == 0 ? 5 : maxPerOrder;
     }
 
     public int getMinOrderQty() {
-        return minOrderQty;
+        return minOrderQty == 0 ? 1 : minOrderQty;
     }
 
     public void setMinOrderQty(int minOrderQty) {
@@ -81,14 +81,22 @@ public class Product {
     }
 
     public boolean isReturnable() {
-        return isReturnable;
+        return isReturnable != null ? isReturnable : true;
     }
 
-    public void setReturnable(boolean isReturnable) {
-        this.isReturnable = isReturnable;
+    public void setReturnable(Boolean isReturnable) {
+        this.isReturnable = (isReturnable == null) ? true : isReturnable;
     }
 
     public Constraints getConstraints() {
+        if (constraints != null) {
+            if (constraints.getMinOrderQuantity() == 0) {
+                constraints.setMinOrderQuantity(getMinOrderQty());
+            }
+            if (constraints.getAvailableQuantity() == 0) {
+                constraints.setAvailableQuantity(getTotalQuantity());
+            }
+        }
         return constraints;
     }
 
@@ -101,7 +109,17 @@ public class Product {
     }
 
     public void setVariants(List<Variants> variants) {
+        // assert validateVariants();
         this.variants = variants;
+    }
+
+    private boolean validateVariants() {
+        int total = 0;
+        for (Variants variants : getVariants()) {
+            total += variants.getAvailableQuantity();
+        }
+
+        return getTotalQuantity() == total;
     }
 
     @Override
