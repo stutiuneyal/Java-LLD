@@ -1,0 +1,26 @@
+1. Volatile -> only visible -> latest read sees the latest write -> it's not for compound operations eg: count++ -> (read -> add -> write) -> race conditions
+
+2. Atomic -> helps us to make updates like (count++) in a thread-safe environment without using locks
+
+3. In this example we can use AtomicIntegerArray in-place of ConcurrentHashMap:
+    a. fixed-size array for Atomic Integer
+    b. Each index -> atomic operations
+    c. Best:
+        i. Keys are dense
+        ii. n is known and bounded (n<=1000)
+        iii. very high write contention
+    d. Cons:
+        i. Size is fixed after creation
+        ii. Only supports Integer indixes
+        iii. Not suitable for sparse or dynamic keys
+
+4. ConcurrentHashMap:
+    a. Thread-safe HashMap
+    b. Allows to perform concurrent reads and writes on keys
+    c. Best:
+        i. Keys are dynamic and sparse
+        ii. Keysa are non-numeric (String, UUID etc.)
+    d. Cons:
+        i. Slower than array due to hashing
+        ii. Higher memory overhead
+        iii. compound operations must be Atomic (merge, compute) etc
