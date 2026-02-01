@@ -56,9 +56,11 @@ public class RateLimiter {
                  *
                  * (2,3)
                  * timestamp:
-                 * 4 -> [2,3,4] -> 1
-                 * 6 -> [4,5,6] -> 2
-                 * 7 -> [5,6,7] -> 2
+                 * 4 -> [2,3,4] -> 1 q = [4]
+                 *
+                 * 6 -> [4,5,6] -> 2 start -> 4, q = [4,6]
+                 * 7 -> [5,6,7] -> 2 start -> 5, evict -> 4, q = [6,7]
+                 * 8 -> [6,7,8] -> 3 start -> 6, evict -> nothing, q = [6,7,8] -> don't allow
                  */
                 Deque<Integer> q = this.windowMap.computeIfAbsent(resourceId, k -> new ArrayDeque<>());
 
