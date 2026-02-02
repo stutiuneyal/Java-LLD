@@ -1,0 +1,12 @@
+1. Core Entities:
+  a. Board (size, Map(start,end))
+  b. Snakes and Ladder -> Parent Class -> Board Entity
+  c. Player -> (name, currentPos(i*j))
+  d. Dice -> (min,max, roll())
+  e. Game:
+    a. Board -> board
+    b. Queue -> players
+    c. Dice -> dice
+    d. winner -> Player
+    e. GameStatus -> Enum(NOT_STARTED,STARTED,COMPLETED) -> status
+
