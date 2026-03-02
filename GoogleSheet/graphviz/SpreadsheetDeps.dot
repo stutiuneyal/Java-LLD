@@ -1,0 +1,10 @@
+digraph SpreadsheetDeps {
+  rankdir=LR;
+
+  // Example:
+  // C1 = A1 + B1*2
+  // D1 = C1 + 1
+  C1 -> A1;
+  C1 -> B1;
+  D1 -> C1;
+}
