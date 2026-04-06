@@ -1,0 +1,130 @@
+1. Problem Statement
+
+Design and implement a user-based rate limiting system for an application.
+
+The system should support multiple rate limiting strategies:
+
+Fixed Window
+Sliding Window
+Token Bucket
+
+The client will use the following API:
+
+boolean allowRequest(String userId)
+
+
+Functional Requirements:
+
+- Rate limiting should be applied per user.
+- Different users can have different rate limiting strategies, decided using a flag/configuration.
+- The system should support:
+   - FIXED_WINDOW
+   - SLIDING_WINDOW
+   - TOKEN_BUCKET
+- The system must be designed in a way that adding a new algorithm later is easy.
+- The system should be safe in concurrent/distributed systems.
+- The implementation should consider Redis key design, atomic updates, and race conditions.
+
+Non-Functional Requirements
+
+- Low latency
+- Scalable
+- Extensible
+- Thread-safe
+- Suitable for distributed deployment
+- Clear separation of responsibilities
+
+
+2. Expected API
+
+- boolean allowRequest(String userId)
+
+- Optionally, a richer API may return metadata too:
+
+RateLimitDecision allowRequestWithDetails(String userId)
+
+Example response metadata:
+
+allowed or rejected
+remaining quota
+retry-after seconds
+algorithm used
+
+
+3. HLD:
+
+Client -> RateLimiterService -> PolicyProvider -> Select Strategy -> Redis-backend -> Decision
+
+4. Design Patterns
+
+1. Strategy Pattern:
+
+Because rate limiting algorithm can vary:
+- Fixed Window
+- Sliding Window
+- Token Window
+
+Each algorithm has different logic, but the service should call them through a common interface.
+
+Interface: RateLimiterStrategy
+
+Avoids -> large if-else nested blocks
+
+
+2. Factory Pattern:
+
+
+Producing the correct strategy based on the policy flag
+
+
+5. Entities
+
+RateLimiterService
+ - depends on RateLimitPolicyProvider
+ - depends on RateLimiterStrategyFactory
+ - uses RateLimiterStrategy
+
+RateLimiterStrategyFactory
+ - Return one of:
+    - FixedWindowRateLimiter
+    - SlidingWindowRateLimiter
+    - TokenBucketRateLimiter
+
+Each strategy:
+ - uses RedisClient
+
+RateLimitPolicy:
+ - which policy to use
+
+
+Redis Key Design:
+
+A. Fixed Window:
+
+We need a counter per user per time window
+
+key_format: rate_limit:fixed:{userId}:{windowStartEpoch}
+
+Value: Integer -> counter
+
+TTL : Window_Size + buffer
+
+
+B. Sliding Window:
+
+Key Format: rate_limit:sliding:{userId}
+
+Value:
+
+Sorted Set:
+ - member = unique requestId/timestamp
+ - score = request timestamp in miliseconds
+
+C. Token Bucket
+
+Key Format: rate_limit:token_bicket:{userId}
+
+Value: hash(tokens, lastRefillTimeMillis)
+
+
+Atomic Counter and Race Conditions
